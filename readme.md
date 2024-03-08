@@ -30,6 +30,7 @@ python data_preprocess.py
 
 #### Test
 
+- We provide the preprocessd test data so that you can directly test using them. You can download the [final-test sampled input](https://drive.google.com/file/d/1M7xjlIWpHePxzErVc6zwJf8H_nmtZDoC/view?usp=drive_link).
 - Please change the path in ``` config/test_demo.yml``` at first
 - To test the pre-trained Restormer models of demosaicing for HybridEVS data on your own images,  you can use command line as following
 
