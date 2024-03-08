@@ -74,6 +74,9 @@ train:
   pixel_criterion: l1
   pixel_weight: 1.0
 
+  ema: True
+  ema_decay: 0.999
+
   manual_seed: 10
   val_freq: !!float 1e4
 
