@@ -1,4 +1,4 @@
-## DemosaicFormer: A Coarse-to-Fine Network for HybridEVS Camera Demosiacing
+## DemosaicFormer: A Coarse-to-Fine Demosiacing Network for HybridEVS Camera 
 
 ## Installation
 

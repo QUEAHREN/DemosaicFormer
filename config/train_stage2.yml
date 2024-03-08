@@ -1,5 +1,5 @@
 #### general settings
-name: DemosaicFormer_InitialTraining
+name: DemosaicFormer_FineTuning
 use_tb_logger: True
 model: sr
 distortion: sr
