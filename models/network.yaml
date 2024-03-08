@@ -1,0 +1,3 @@
+simulation:
+    Ts: 1.0
+    tSample: 160

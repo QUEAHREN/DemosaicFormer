@@ -1,0 +1,39 @@
+# name: test_Restormer_Denoise_80_default_5e-4_aug_wDConv5_250k_patch
+name: DemosaicFormer_Test_Demo
+suffix: ~  # add suffix to saved images
+model: sr
+distortion: sr
+scale: 8
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+save_img: True
+gpu_ids: [0]
+save_mid: False
+
+train:
+  ema: False
+
+datasets:
+  test1:
+    name: EvInt
+    mode: LQ
+    scale: 1
+    dataroot_Frame: /root/MIPI_dataset/finaltest/input/
+
+#### network structures
+network_G:
+  which_model_G: DemosaicFormer
+  inp_channels: 3
+  out_channels: 3
+  dim: 48
+  num_blocks: [4,6,6,8]
+  num_refinement_blocks: 4
+  heads: [1,2,4,8]
+  ffn_expansion_factor: 2.66
+  bias: False
+  LayerNorm_type: BiasFree
+  dual_pixel_task: False
+
+#### path
+path:
+  pretrain_model_G: DemosaicFormer/pretrained_models/DemosaicFormer_checkpoint.pth
+  root: /root/MIPI_res
