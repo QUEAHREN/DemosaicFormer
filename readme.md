@@ -14,7 +14,9 @@ pip install matplotlib scikit-learn scikit-image opencv-python yacs joblib natso
 pip install einops gdown addict future lmdb numpy pyyaml requests scipy tb-nightly yapf lpips
 ```
 
-## Data Preprocess
+## Dataset & Data Preprocess
+
+You can download the training set from [MIPI2024 training set](https://drive.google.com/drive/folders/1Yi4ZqNm-0AfdWm8gzLAhxX9ooIWkhqZt?usp=drive_link)
 
 Please change the path in ``` data_preprocess.py``` and use command line as following to convert the bin files to RGB images:
 
