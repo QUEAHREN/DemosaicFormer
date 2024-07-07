@@ -1,3 +1,5 @@
+# 🥇 Winner solution on the MIPI 2024 Challenge on Demosaic for HybridEVS Camera
+
 ## DemosaicFormer: Coarse-to-Fine Demosaicing Network for HybridEVS Camera
 
 ## Overview
