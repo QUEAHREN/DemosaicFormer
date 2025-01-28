@@ -70,7 +70,7 @@ python -m torch.distributed.launch --nproc_per_node=6 --master_port=4321 train_m
 If you find our work useful in your research, please consider citing:
 
 ```
-@InProceedings{Xu_2024_CVPR,
+@InProceedings{Xu_2024_DemosaicFormer,
     author    = {Xu, Senyan and Sun, Zhijing and Zhu, Jiaying and Zhu, Yurui and Fu, Xueyang and Zha, Zheng-Jun},
     title     = {DemosaicFormer: Coarse-to-Fine Demosaicing Network for HybridEVS Camera},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
